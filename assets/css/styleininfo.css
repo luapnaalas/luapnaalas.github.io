@@ -95,6 +95,8 @@ a:hover {
     border-radius: 30px;
     color: white;
     font-family: 'Nunito', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .read-more a:hover {
     color: aqua

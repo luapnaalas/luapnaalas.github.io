@@ -32,7 +32,7 @@ nav.home-navigation a {
 
 /*INFO HOBBY STYLES*/
 section.hobby-section {
-    background: #fff url(../images/skillsbg.jpg) no-repeat;
+    background: #fff url(../images/contactbanner.jpg) no-repeat;
     text-align: center;
     background-size: cover;
     height: 87vh;
@@ -59,15 +59,16 @@ section.hobby-section {
     background-image: linear-gradient(-20deg, #000000, #031132);
     padding: 15px;
     border-radius: 30px 50px 5px;
-    height: 49.5vh;
-    box-shadow: 30px 30px 20px rgba(0,0,0,0.3);
+    height: 43vh;
+    box-shadow: 30px 30px 20px rgb(0 0 0 / 30%);
+    padding-top: 55px;
 }
 .hobby span {
     color: aqua;
     font-size: 50px;
 }
 .hobby p {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
@@ -78,7 +79,7 @@ section.hobby-section {
     border-radius: 30px;
     width: 58%;
     margin-left: 68px;
-    margin-top: 49.5px;
+    margin-top: 65px;
     margin-bottom: 12px;
     color: black;
 }
@@ -87,7 +88,7 @@ section.hobby-section {
     border-radius: 30px;
     width: 58%;
     margin-left: 68px;
-    margin-top: 93px;
+    margin-top: 29.5px;
     color: black;
     margin-bottom: 12px;   
 }
@@ -96,7 +97,7 @@ section.hobby-section {
     border-radius: 30px;
     width: 58%;
     margin-left: 68px;
-    margin-top: 96px;
+    margin-top: 68.5px;
     margin-bottom: 12px;
     color: black; 
 }
