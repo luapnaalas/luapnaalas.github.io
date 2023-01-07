@@ -42,6 +42,9 @@ a:hover {
 }
 
 /*BANNER STYLES*/
+section.banner-section img {
+    width: 165px;
+}
 section.banner-section {
     background: #fff url('../images/bannerinlogo.jpg') no-repeat;
     background-size: cover;
@@ -55,7 +58,6 @@ section.banner-section h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
     text-align: center;
-    padding-top: 150px;
     background-image: linear-gradient(160deg, #01efdd, #e39000);
     -webkit-background-clip: text;
     color: transparent;
@@ -82,15 +84,34 @@ p {
 .info a:hover {
     color: aqua;
 }
+
+/*BANNER NAV CSS*/
+section.banner-section a {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner-nav {
+    text-align: center;
+}
+section.banner-section a:hover {
+    background-image: linear-gradient(45deg, black, transparent);
+    transition: 1s;
+}
+
 /*FOOTER STYLES*/
 .footer {
     background-color: rgb(0 0 0);
-    height: 25vh;
+    height: 23vh;
     text-align: center;
 }
 .footer h2 {
     color: white;
-    padding-top: 45px;
+    padding-top: 25px;
     font-size: 18px;
     padding-bottom: 25px;
     font-family: 'Montserrat', sans-serif;
